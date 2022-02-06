@@ -1,0 +1,15 @@
+nltk == 3.5
+numpy == 1.19.4
+pandas == 1.1.4
+scikit-learn == 0.23.2
+sentencepiece == 0.1.94
+spacy == 2.3.4
+tensorboard == 2.2.0
+torch == 1.7.0
+transformers == 4.5.0
+datasets==1.8.0
+torchtext==0.8.0
+rouge-score==0.0.4
+nmtlab==0.7.4
+datasets==1.8.0
+Pillow==8.3.2

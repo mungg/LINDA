@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="7104096@10.12.54.31:30001 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/nlp2/users/yekyung.kim/git/LINDA_ICML" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

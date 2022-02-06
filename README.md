@@ -1,0 +1,40 @@
+## Installation
+
+```
+conda create -n linda python==3.7
+conda activate linda
+pip install -r requirements.txt
+cd LINDA
+```
+
+## Datasets
+> Dataset path: `./LINDA/data/raw`
+* `train.txt`: train set of 1,000,000 sentences (Currently not provided because of size issues)
+* `train_tiny.txt`: train set of 100 sentences
+* `dev.txt`: dev set of 50,000 sentences
+
+### Training with a specific train set
+1. set path to the train set to be used in `dataset_loading_script.py`
+```python
+# when using train_tiny.txt
+TRAIN_DATA_PATH = os.path.join(data_dir, "train_tiny.txt") 
+#when using train.txt
+TRAIN_DATA_PATH = os.path.join(data_dir, "train.txt")
+```
+2. set train_mode arguments in `run.py`
+```python
+# either 'full' or 'tiny'
+parser.add_argument("--train_mode", type=str, default='tiny',
+                        help="'full' or 'tiny'. If set to 'tiny', trained with only 100 sentence pairs.")
+```
+
+## Important Arguments
+* `--gpu_ids`: specify gpu ids
+* `--train_mode`: set accordingly to the path set in `dataset_loading_script.py`
+
+## Example
+```
+python3 LINDA/run.py --do_train --train_mode tiny --per_device_train_batch_size 16 --gpu_ids 0,1,2,3,4,5,6,7
+```
+***
+
