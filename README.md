@@ -1,6 +1,8 @@
 # LINDA: Unsupervised Learning to Interpolate in Natural Language Processing
+Author: Yekyung Kim, Seohyeong Jeong, Kyunghyun Cho
 
 Official PyTorch Implementation of LINDA | [Paper](https://arxiv.org/abs/2112.13969) 
+This work is done at and belongs to AIRS Company
 * * *
 
 ![LINDA](architecture_2.png)
