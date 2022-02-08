@@ -2,7 +2,6 @@
 Author: Yekyung Kim, Seohyeong Jeong, Kyunghyun Cho
 
 Official PyTorch Implementation of LINDA | [Paper](https://arxiv.org/abs/2112.13969) 
-This work is done at and belongs to AIRS Company
 * * *
 
 ![LINDA](architecture_2.png)
@@ -49,3 +48,4 @@ python3 LINDA/run.py --do_train --train_mode tiny --per_device_train_batch_size 
 ```
 ***
 
+This work is done at and belongs to AIRS Company
